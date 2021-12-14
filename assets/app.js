@@ -13,7 +13,6 @@ import './bootstrap';
 
 import React from 'react';
 import Footer from './components/Footer';
-import reactDom from 'react-dom';
 
 const App = () => {
 
@@ -22,8 +21,6 @@ const App = () => {
     );
 }
 
-const rootElement = document.querySelector('#app');
-reactDom.render(<App />, rootElement);
 export default App;
 
 

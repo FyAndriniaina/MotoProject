@@ -1,0 +1,25 @@
+@font-face{
+    font-family: Hevetic;
+    src: url("../font/_H_HelveticaNeueInterface.ttf") format("truetype");
+  }
+
+
+body{
+    
+}
+h1{
+    font-family: Helvetid;
+    font-weight: bolder;
+}
+
+.bp{
+    background-color: #ba5536 !important;
+    color:white;
+}
+.bp:hover{
+    background-color: #a43820 !important;
+}
+
+h1{
+
+}
