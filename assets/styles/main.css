@@ -1,14 +1,15 @@
 @font-face{
     font-family: Hevetic;
     src: url("../font/_H_HelveticaNeueInterface.ttf") format("truetype");
+    
   }
 
 
 body{
-    
+    font-family: Helvetid;
 }
 h1{
-    font-family: Helvetid;
+    
     font-weight: bolder;
 }
 
@@ -20,6 +21,47 @@ h1{
     background-color: #a43820 !important;
 }
 
-h1{
-
+.part-1{
+    background-image: url('../Images//Services/repection.jpg');
+    background-size: cover;
+    height: 200px;
 }
+.part-1:hover .dropUp{
+    transition: .7s;
+    height: 100%;
+}
+.part-2{
+    background-image: url('../Images//Services/reservation.jpg');
+    background-size: cover;
+    height: 200px;
+}
+.part-2:hover .dropUp{
+    transition: .7s ease-in;
+    height: 100%;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .dropUp{
+    background-color: rgba(0, 0, 0, .6); 
+    position: absolute; 
+    bottom: 0;
+     height: 60px; 
+     overflow: hidden;
+     padding-top: 20px;
+     padding-bottom: 20px;
+  }
+.badge-card{
+    position: absolute;
+    left: 0;
+    top : 30px;
+    background-color: #a43820;
+    color: white;
+    padding: 10px;
+}
+
+  
